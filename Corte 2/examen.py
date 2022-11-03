@@ -1,4 +1,5 @@
-# Gerson Efher Lopez
+# Gerson Efher Lopez Alvarez
+#Julio Antonio Cabrera Yañez
 
 import threading, random
 import time
