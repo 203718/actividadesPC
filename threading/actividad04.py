@@ -76,10 +76,10 @@ def get_services3():
 
 if __name__ =='__main__':
     init_time = time.time()
-    th2 = threading.Thread(target=get_services2)
-    th2.start()
-    th3 = threading.Thread(target=get_services3)
-    th3.start()
+    #th2 = threading.Thread(target=get_services2)
+    #th2.start()
+    #th3 = threading.Thread(target=get_services3)
+    #th3.start()
     for x in range(0,50):
         th1 = threading.Thread(target=get_services)        
         th1.start()
